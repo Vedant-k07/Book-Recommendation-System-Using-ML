@@ -1,0 +1,62 @@
+/* Apply gradient background */
+body {
+  background: linear-gradient(300deg, #487e97, #28a2d5, #4623fb);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+
+/* Styling for the navbar */
+.navbar {
+    font-weight: normal;
+    font-style: italic;
+  padding: 15px;
+  font-size: 18px;
+}
+
+/* Centering text content */
+h1, h2, h6 {
+    font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+/* Book cards */
+.card {
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Image inside the card */
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-body {
+margin: auto;
+
+    flex-grow: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-weight: bolder;
+    font-family: "Arial Black,serif";
+    word-wrap: break-word;
+    white-space: normal;
+    font-size: 14px; /* Adjust size if needed */
+}
+
+/* Margin and spacing */
+.container {
+  padding-top: 15px;
+}
